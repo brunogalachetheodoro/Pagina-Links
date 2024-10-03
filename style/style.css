@@ -3,7 +3,7 @@
 html {
     box-sizing: border-box;
     background-color: #121212;
-
+    color: #38b6ff;
 }
 
 .background-topo {
@@ -24,4 +24,41 @@ main img{
     margin-top: -80px;
     border-radius: 50%;
     border: 10px solid #121212;
+}
+
+main h1 {
+    font-size: 26px;
+    font-weight: bolder;
+}
+
+main p {
+    font-weight: lighter;
+}
+
+button {
+    color: #121212;
+    background-color: #38b6ff;
+    border-radius: 10px;
+    font-weight: bolder;
+    border: none;
+    font-size: 18px;
+    width: 250px;
+    height: 50px;
+    margin: 5px;
+}
+
+button:hover {
+    background-color: #121212;
+    color: #38b6ff;
+    border: 1px solid #38b6ff;
+    transition: 0.6s;
+    cursor: pointer;
+}
+
+footer {
+    text-align: center;
+}
+
+footer p {
+    margin-top: 150px;
 }
