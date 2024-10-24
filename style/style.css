@@ -1,16 +1,24 @@
 @charset "UTF-8";
 
+ * {
+    font-family:Arial, Helvetica, sans-serif ;
+ }
+
 html {
     box-sizing: border-box;
     background-color: #121212;
     color: #38b6ff;
 }
 
+/* Topo */
+
 .background-topo {
     background: url(../Imagens/cloud-storage-background-remixed-from-public-domain-by-nasa.jpg)     no-repeat bottom 20% center;
     background-size: cover;
     height: 200px;
 }
+
+/* Corpo */
 
 main {
     display: flex;
@@ -19,7 +27,7 @@ main {
     justify-content: center;
 }
 
-main img{
+.img-perfil {
     width: 200px;
     margin-top: -80px;
     border-radius: 50%;
@@ -54,6 +62,66 @@ button:hover {
     transition: 0.6s;
     cursor: pointer;
 }
+/* Slide */
+/*
+.slider {
+    position: relative;
+    width: 100%;
+    margin:auto;
+    overflow: hidden;
+    text-align: center;
+}
+
+.slider img {
+    width: 100%;
+    display: none;
+}
+
+img.displaySlide {
+    display: block;
+}
+
+
+
+.botao-slide {
+    width: 50px;
+}
+/*
+
+/* Slide */
+
+.carousel {
+    height: 310px;
+    width: 250px;
+    overflow: hidden;
+}
+
+.image-container {
+    display: flex;
+    transform: translateX(0);
+    transition: transform 0.5s ease-in-out;
+}
+
+img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.botao-slide {
+    width: 150px;
+    align-items: center;
+}
+
+.buttons-container {
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+
+
+/* Footer */
 
 footer {
     text-align: center;
