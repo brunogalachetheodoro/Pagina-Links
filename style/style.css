@@ -43,6 +43,11 @@ main p {
     font-weight: lighter;
 }
 
+#p-top {
+    margin-bottom: 20px;
+
+
+}
 button {
     color: #121212;
     background-color: #38b6ff;
@@ -62,31 +67,10 @@ button:hover {
     transition: 0.6s;
     cursor: pointer;
 }
-/* Slide */
-/*
-.slider {
-    position: relative;
-    width: 100%;
-    margin:auto;
-    overflow: hidden;
-    text-align: center;
+
+.text-h2 {
+    margin: 20px 0px;
 }
-
-.slider img {
-    width: 100%;
-    display: none;
-}
-
-img.displaySlide {
-    display: block;
-}
-
-
-
-.botao-slide {
-    width: 50px;
-}
-/*
 
 /* Slide */
 
@@ -102,11 +86,12 @@ img.displaySlide {
     transition: transform 0.5s ease-in-out;
 }
 
-img {
+.img-slide {
     width: 250px;
     height: 250px;
     object-fit: cover;
     border-radius: 10px;
+    cursor: pointer;
 }
 
 .botao-slide {
@@ -123,10 +108,15 @@ img {
 
 /* Footer */
 
+#button-ver-mais {
+    margin-top: 20px;
+}
+
 footer {
     text-align: center;
 }
 
 footer p {
-    margin-top: 150px;
+    margin: 25px 0px;
+    font-size: 12px;
 }
