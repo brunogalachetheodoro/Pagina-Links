@@ -5,25 +5,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bruno Theodoro - BGT</title>
-    <link rel="shortcut icon" href="Imagens/logo-bgt.png" type="image/x-icon">
+    <link rel="shortcut icon" href="Imagens/favicon.png" type="image/x-icon">
     <link rel="stylesheet" href="style/style.css">
     <link rel="stylesheet" href="style/reset.css">
     <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <script src="https://unpkg.com/scrollreveal" defer></script>
 </head>
 <body>
     <header class="background-topo"></header>
 
     <main>
         <img class="img-perfil" src="Imagens/Design sem nome (4).png" alt="">
-        <h1>BRUNO THEODORO</h1>
-        <p id="p-top">BGT - DIGITAL SOLUTIONS</p>
-        <button>ORÇAMENTO</button>
-        <button>PORTFÓLIO</button>
-        <button>CONTATO</button>
-        <h2 class="text-h2">CONHEÇA MEU TRABALHO</h2>
+        <h1 class="hidden-txt1">BRUNO THEODORO</h1>
+        <p id="p-top" class="hidden-txt2">BGT - DIGITAL SOLUTIONS</p>
+        <a href="https://bit.ly/orcamento-bgt" target="_blank"><button class="hidden-button1">ORÇAMENTO</button></a>
+        <button class="hidden-button2">PORTFÓLIO</button>
+        <a href="https://bit.ly/contato-bgt" target="_blank"><button class="hidden-button3">CONTATO</button></a>
+        <h2 class="text-h2">CLIQUE NA IMAGEM ABAIXO<br> E CONHEÇA MEU TRABALHO</h2>
         <div class="carousel">
-            <div class="image-container" id="imgs">
-                <a href="https://brunogalachetheodoro.github.io/Cardapio-Digital/" target="_blank"><img class="img-slide" src="Imagens/projeto-imagens/site-japones.png" alt="first-image"></a>
+            <div class="image-container " id="imgs">
+                <a href="https://brunogalachetheodoro.github.io/Cardapio-Digital/" target="_blank"><img class="img-slide hidden-img" src="Imagens/projeto-imagens/site-japones.png" alt="first-image"></a>
                 <a href="https://brunogalachetheodoro.github.io/LP-Barbearia/" target="_blank"><img class="img-slide" src="Imagens/projeto-imagens/site-barbearia.png" alt="second-image"></a>
                 <a href="https://brunogalachetheodoro.github.io/Portfolio-Bruno-Theodoro/ " target="_blank"><img class="img-slide" src="Imagens/projeto-imagens/portfólio.jpg" alt="third-image"></a>
                 <a href="https://brunogalachetheodoro.github.io/Pagina-Login/" target="_blank"><img class="img-slide" src="Imagens/projeto-imagens/site-login.png" alt="forth-image"></a>
@@ -37,12 +38,11 @@
             
         
         </div>
-        <button id="button-ver-mais">VER MAIS</button>
     </main>
 
     <footer>
         <p>Desenvoldido por: Bruno Theodoro | BGT - Digital Solutions</p>
     </footer>
-    <script src="script.js"></script>
+    <script src="script.js" defer></script>
 </body>
 </html>

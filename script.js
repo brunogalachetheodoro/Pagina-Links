@@ -39,3 +39,46 @@ leftButton.addEventListener('click', () => {
     changeImage()
     resetInterval()
 })
+
+/* Reveal */
+
+window.revelar = ScrollReveal({reset:true})
+
+revelar.reveal('.hidden-txt1', {
+    duration: 1000,
+    distance: '250px',
+    origin: 'left'
+})
+
+revelar.reveal('.hidden-txt2', {
+    duration: 1000,
+    distance: '250px',
+    origin: 'left',
+    delay: 500
+})
+
+revelar.reveal('.hidden-button1', {
+    duration: 2000,
+    distance: '100px',
+    origin:'left',
+})
+
+revelar.reveal('.hidden-button2', {
+    duration: 2000,
+    distance: '100px',
+    origin:'left',
+    delay: 500
+})
+
+revelar.reveal('.hidden-button3', {
+    duration: 2000,
+    distance: '100px',
+    origin:'left',
+    delay: 1000
+})
+
+revelar.reveal('.hidden-img', {
+    duration: 1000,
+    distance: '100px',
+    origin: 'bottom'
+})

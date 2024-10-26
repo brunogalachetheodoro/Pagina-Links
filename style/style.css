@@ -70,6 +70,7 @@ button:hover {
 
 .text-h2 {
     margin: 20px 0px;
+    text-align: center;
 }
 
 /* Slide */
@@ -119,4 +120,10 @@ footer {
 footer p {
     margin: 25px 0px;
     font-size: 12px;
+}
+
+/* Hidden */
+
+.hidden-img , .hidden-txt1, .hidden-txt2, .hidden-button1,  .hidden-button2,  .hidden-button3 {
+    visibility: hidden;
 }
